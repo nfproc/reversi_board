@@ -19,6 +19,7 @@ environment:
 - Vitis video library 2021.1
 - Vivado 2020.2
 - PYNQ 2.6
+
 Additionally, the authors confirmed operation on the following environment:
 - Vitis HLS 2022.1
 - Vitis video library 2024.2

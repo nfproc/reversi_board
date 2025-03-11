@@ -72,7 +72,7 @@ OpenCV 4.4.0 が必要です．以下の手順でインストールします．
 を修正します．以下は bash の場合です．シェルを起動してから Vitis HLS を実行
 する前に毎回行うか，~/.bashrc に追加してください．
 
->     $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/PATH/TO/OPENCV-LIB
+>     $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/USERNAME/vision/opencv-lib
 
 #### Vitis Vision library
 
@@ -131,6 +131,7 @@ Version は，バージョン 2020.2 を使う場合は 1.0，2022.1 を使う�
 C Simulation を行うと，
 - output_cv.png にソフトウェア（OpenCV）での，
 - output_hls.png にハードウェア（高位合成されるアルゴリズム）での，
+
 実行結果がそれぞれ保存されます．
 
 ハフ変換のみをハードウェア化したものを高位合成したい場合は，`hough_only`

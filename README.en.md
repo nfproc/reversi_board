@@ -73,7 +73,7 @@ Then, the LD_LIBRARY_PATH environmantal variable has to be modified in
 order that the library is dynamically loaded on the simulation. The
 following command is the case of bash. You can add it to .bashrc.
 
->     $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/PATH/TO/OPENCV-LIB
+>     $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/USERNAME/vision/opencv-lib
 
 #### Vitis Vision library
 
